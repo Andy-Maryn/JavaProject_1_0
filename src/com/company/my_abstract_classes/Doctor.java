@@ -1,8 +1,9 @@
-package com.company.my_classes;
+package com.company.my_abstract_classes;
 
+import com.company.my_classes.Patient;
 import com.company.my_interfaces.DoctorsInterface;
 
-public class Doctor implements DoctorsInterface {
+public abstract class Doctor implements DoctorsInterface {
 
     @Override
     public void meetThePatient(Patient patient) {

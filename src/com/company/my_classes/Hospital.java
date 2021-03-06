@@ -1,5 +1,7 @@
 package com.company.my_classes;
 
+import com.company.my_abstract_classes.Doctor;
+
 public class Hospital {
 
     public Doctor newPatient(Patient patient){
